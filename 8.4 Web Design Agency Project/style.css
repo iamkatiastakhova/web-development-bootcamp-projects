@@ -1,67 +1,120 @@
-body {
-  font-family: "Poppins", sans-serif;
-  margin: 50px 50px 0 50px;
-  background-color: #faf9f6;
-  display: flex;
-  flex-direction: column;
-  min-height: 95vh;
-}
-.main {
-  flex: 1;
+
+
+html {
+  background-color: azure;
 }
 
-h1 {
-  font-size: 5rem;
+.img {
+  height: 200px;
+}
+
+.first-image {
+  float: left;
+}
+
+.second-image {
+  float: right;
+}
+
+h1{
+  padding: 10px;
+  float: right;
+}
+.clear {
+  clear: both;
+}
+footer {
+  text-align: center;
+  color: midnightblue;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .first-image {
+    float: none;
+  }
+  .second-image {
+    float: none;
+  }
+  h1 {
+    float: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  background-color:#faf9f6;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+
+
+.title-img {
+  height: 190px;
+  margin-right: 50px;
+  float: left;
+}
+.main {
+  display: block;
+}
+
+.left-img {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.right-img {
+  float: right;
+}
+
+h1 span {
+  color: midnightblue;
+}
+
+h2 p {
+  float: right;
 }
 
 footer {
   text-align: right;
   color: midnightblue;
+  clear:both;
 }
 
-.tile-image {
-  height: 200px;
-  float: left;
-  margin-right: 50px;
-}
-
-.card {
-  width: 45%;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.creative {
-  color: midnightblue;
-}
-
-@media (max-width: 680px) {
+@media (max: 680px) {
   .logo {
-    width: 100px;
-  }
-
-  h1 {
-    font-size: 3.5rem;
-    text-align: center;
-  }
-
-  .card {
-    width: 100%;
-    display: block;
-    margin-bottom: 30px;
-    text-align: justify;
-  }
-
-  .card img {
-    margin-bottom: 10px;
-    width: 100%;
-    display: inline;
-    object-fit: cover;
+    width:100px;
   }
 }

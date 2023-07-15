@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <!-- 
+  TODO
+1. By changing only the display property of the CSS make all 3 squares line up horizontally like in goal1 image.
+2. Change only the display property to make all 3 squares line up vertically like in goal2 image. 
+-->
+
+  <head>
+    <title>CSS Display Property Example</title>
+    <style>
+      html {
+        background-color: cornsilk;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 400;
+      }
+      p {
+        color: white;
+      }
+
+      .red {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        display: block;
+        float: right;
+      }
+
+      .clear-element {
+        clear: both;
+        background-color: aqua;
+      }
+
+      .green {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        display: block;
+        float: left;
+      }
+
+      .blue {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        display: block;
+        float: right;
+      }
+
+      .red-image {
+        width: 150px;
+        height: 150px;
+        float: right;
+        margin-right: 25px;
+      }
+
+      .green-image {
+        width: 155px;
+        height: 150px;
+        float: left;
+        margin-left: 22px;
+      }
+
+      .blue-image {
+        width: 160px;
+        height: 150px;
+        float: right;
+        margin-right: 19.5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>CSS Display Property</h1>
+    <p class="red">
+      Red box with a vibing cat
+      <img
+        class="red-image"
+        src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDA3YmZzeHM2Z2oyNXNnaDFtN2l2dmI2eTJ6eGV3aHJ6eTBtYms5aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/GeimqsH0TLDt4tScGw/giphy.gif"
+        alt="vibing cat"
+      />
+    </p>
+    <div class="clear-element">clear-element</div>
+    <p class="green">
+      Green Box with three cats
+      <img
+        class="green-image"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnI4bW1vbWd0amU0czdtd29teW16dXU5d2I2d2RzYnQ2MndhcGZodCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YRtLgsajXrz1FNJ6oy/giphy.gif"
+        alt="three vertically placed cats"
+      />
+    </p>
+    <div class="clear-element">clear-element</div>
+    <p class="blue">
+      Blue Box with a brownie cat
+      <img
+        class="blue-image"
+        src="https://media.glamour.com/photos/580e1fc08bd9950546d001f6/master/w_320%2Cc_limit/giphy%2520(11).gif"
+        alt="astonished cat"
+      />
+    </p>
+  </body>
+</html>
