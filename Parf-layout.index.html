@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flex layout</title>
+    <style>
+      html {
+        background-color: aliceblue;
+      }
+
+      .page-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        border: 1px solid;
+        background-color: red;
+        min-height: 600px;
+        padding: 10px;
+      }
+
+      .header-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        border: 1px solid;
+        background-color: cyan;
+        padding: 10px;
+      }
+
+      .header-item {
+        border: 1px solid white;
+        background-color: violet;
+        color: white;
+      }
+
+      .main-container {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: flex-start;
+
+        border: 1px solid;
+        background-color: cyan;
+        padding: 10px;
+      }
+
+      .main-container-item {
+        border: 1px solid white;
+        background-color: violet;
+        padding: 77px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page-container">
+      <div class="header-container">
+        <div class="header-item">
+          <p>first element</p>
+        </div>
+        <div class="header-item">
+          <p>second element</p>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="main-container-item">1</div>
+        <div class="main-container-item">2</div>
+        <div class="main-container-item">3</div>
+        <div class="main-container-item">4</div>
+        <div class="main-container-item">5</div>
+        <div class="main-container-item">6</div>
+      </div>
+    </div>
+  </body>
+</html>

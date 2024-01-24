@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Kate's universe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- splide library import -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+</head>
+
+<body>
+    <div class="container-vertical">
+        <!-- hello title -->
+        <div class="item container-vertical blue title-section">
+            <p class="title">
+                Hello there, it's Kate!
+            </p>
+            <div class="container-horizontal title-links">
+                <a href="#projects">Projects</a>
+                <a href="#presentation">Self-presentation</a>
+                <a href="#contacts">Contact</a>
+                <a href="blog.html">Blog</a>
+            </div>
+        </div>
+        <!-- about -->
+        <div class="item container-horizontal flex-wrap">
+            <div class="item card" style="max-width: 50%; min-width: 500px;">
+                <div>
+                    <img src="kate.png" class="card-img" style="width: 100%; height: auto;">
+                </div>
+            </div>
+            <div class="item card text">
+                <h2>Welcome to my webpage!</h2>
+                <p>I am a 27-year old Ukrainian girl who moved to Switzerland a year ago. With a huge shift in my life, I also have made up my mind to make a transition in my career path from the domain as a linguist and a lecturer in phonetics and public speaking at University to a willing web-developer who is open to the world of information technology, without a fear to start from the very beginning, to scrutinise aspiringly and to apply all my accumulated skills, gained throughout my life and studies.</p>
+                <ul style="list-style: disc; margin-left: 20px;
+                ">
+                    <li>A selection of some of my projects while self-studying on Udemy online Web-development courses is provided below:</li>
+                </ul>
+            </div>
+        </div>
+        <!-- projects -->
+        <div id="projects" class="item container-vertical blue title-section">
+            <p class="title-small">Projects</p>
+        </div>
+        <div class="item container-horizontal flex-wrap">
+            <div class="item card">
+                <section id="image-carousel" class="splide" aria-label="Project images">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="https://picsum.photos/300/200" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="https://picsum.photos/300/200" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="https://picsum.photos/300/200" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="item card text">
+                <h2>Project name</h2>
+                <p>In this project i did x,y,z</p>
+            </div>
+        </div>
+        <!-- presentation -->
+        <div id="presentation" class="item container-vertical blue title-section">
+            <p class="title-small">Self-presentation</p>
+        </div>
+        <div class="item container-horizontal flex-wrap">
+            <div class="item card blue" style="text-align: center; padding-bottom: 30px;">
+                <iframe width="500px" height="300px" src="https://www.youtube.com/embed/ja8ETywMzrY">
+                </iframe>
+            </div>
+        </div>
+        <!-- contacts -->
+        <div id="contacts" class="item gray title-section">
+            <p class="title-small">Contact me</p>
+        </div>
+        <div class="item card gray" style="padding-bottom: 30px;">
+            <div class="container-vertical contact-links">
+                <a href="mailto:kateryna.astakhova@gmail.com">kateryna.astakhova@gmail.com</a>
+                <a href="tel:+41767298614">+41767298614</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel').mount();
+        });
+    </script>
+</body>
+
+</html>

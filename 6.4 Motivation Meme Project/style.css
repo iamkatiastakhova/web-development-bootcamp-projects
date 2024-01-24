@@ -4,6 +4,7 @@ html {
 
 h1,h2 {
     color: aliceblue;
+    text-align: center;
 }
 
 h1 {
@@ -15,9 +16,6 @@ h1 {
    border: 5px solid white;
 }
 
-h1, h2 {
-    text-align: center;
-}
 
 #pic {
     width: 50%;

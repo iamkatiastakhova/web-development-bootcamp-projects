@@ -1,0 +1,24 @@
+1.Project name: CSS Flag 
+One of my first challenging and vital steps in advanced CSS where I mastered positioning, box-model and div-elements.
+
+2.Project name: Mondrian Project
+A creative task where I could see how flex and grid perform together. The aim stood as following: to create own Mondrian picture (its layout, colours, sizes, the number of items — all up to one’s imagination)
+
+3.Project name: Pricing Table Project
+The task where was learning how flex properties work and how to make a webpage responsive.
+
+4.Project name: Parf-flexlayout 
+Here I combined by passion for perfumes and studies, trying to create a catalogue of the TOP perfumes in 2023 using flex.
+
+5.Project name: Bootstrap Components
+In the given project I have utilized several features of Bootstrap such as: navbar component, grid system, buttons, carousel component and utility classes for styling the feature icons.
+
+
+
+
+
+
+personal:
+Welcome to my webpage! I am a 27-year old Ukrainian girl who moved to Switzerland a year ago. With a huge shift in my life, I also have made up my mind to make a transition in my career path from the domain as a linguist and a lecturer in phonetics and public speaking at University to a willing web-developer who is open to the world of information technology, without a fear to start from the very beginning, to scrutinise aspiringly and to apply all my accumulated skills, gained throughout my life and studies.
+
+Here below is a selection of some of my projects while self-studying on Udemy online Web-development courses:
